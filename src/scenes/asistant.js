@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import { View, Text, ScrollView, TouchableOpacity } from 'react-native';
+import styles from '../styles/assitantStyles';
 import LottieView from 'lottie-react-native';
-import styles from '../styles/homeStyles';
 
-export default class home extends Component {
+
+class asistant extends Component {
   constructor(props) {
     super(props);
     this.state = {
         isPressing:false,
     };
   }
-onPressIn=()=>{
+  onPressIn=()=>{
     this.setState({
         isPressing:true,
     })
@@ -20,31 +21,26 @@ onPressOut=()=>{
     this.setState({
         isPressing:false,
     });
-    this.props.navigation.navigate("Assistant");
     console.log('pressed out')
 }
-
 
   render() {
     return (
       <ScrollView style={styles.container}>
-          <View style={styles.headerContainer}>
-          <Text style={styles.herderText}>Read Text to recognize your voice ! </Text>
-          </View>
-    <View style={styles.innerContainer}>
-        <View style={styles.textContainer}>
-        <Text style={styles.readingText}>Some speech recognition systems require "training" (also called "enrollment") where an individual speaker reads text or isolated vocabulary into the system.</Text>
+        <View style={styles.headerContainer}>
+            <Text style={styles.herderText}>Your voice Assistant is here !</Text>
         </View>
+        <View style={styles.innerContainer}>
         <View style={styles.lottieContainer}>
             { !this.state.isPressing?(
-          <LottieView source={require('../assets/lottieAnimations/rotating.json')} autoPlay loop  speed={3}></LottieView>
+          <LottieView source={require('../assets/lottieAnimations/bubble.json')} autoPlay loop  speed={1}></LottieView>
             ):(
-            <LottieView source={require('../assets/lottieAnimations/recording.json')} autoPlay loop  speed={2}></LottieView>
+            <LottieView source={require('../assets/lottieAnimations/voiceBar.json')} autoPlay loop  speed={1}></LottieView>
             )}
         </View>
         <View style={styles.buttonContainer} >
         <TouchableOpacity style={styles.button} onPressIn={()=>{this.onPressIn()}} onPressOut={()=>this.onPressOut()}>
-            <Text style={styles.buttonText}>Press and Hold to record</Text>
+            <Text style={styles.buttonText}>Press and Hold to Speech</Text>
         </TouchableOpacity>
         </View>
         </View>
@@ -52,3 +48,4 @@ onPressOut=()=>{
     );
   }
 }
+export default asistant;

@@ -8,7 +8,9 @@ const styles  = StyleSheet.create({
         width:ScreenSize.width,
         height:ScreenSize.height,
         paddingHorizontal:20,
-        paddingVertical:10,
+        paddingVertical:20,
+        backgroundColor:'gray',
+
     },
     headerContainer:{
         width:'100%',
@@ -32,7 +34,7 @@ const styles  = StyleSheet.create({
         flex:1,
     },
     readingText:{
-        fontFamily:Fonts.Monteserrat,
+        fontFamily:Fonts.OpenSans,
 
     },
     buttonContainer:{
@@ -47,7 +49,7 @@ const styles  = StyleSheet.create({
     },
     button:{
         width:'95%',
-        backgroundColor:'blue',
+        backgroundColor:'#292929',
         alignItems:"center",
         justifyContent:'center',
         borderRadius:30,

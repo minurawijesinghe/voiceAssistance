@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "driven-fragment-258113",
+  "private_key_id": "3d5708ffb738cda2f95502d5c1bc5794eba29427",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQDPHsEgyeWb5xJe\np+TG4DEEMYEHbu/H15OdNVQR64nsGOUJ/qtJNqu1aVAL166VuhWiQnfv52RqOgYQ\nEea3eB/8AgshTjND0p9Mjv/netCsYb+v6bo5sh9A78/J4aV8ifRPgBfEi7xKSUh4\nxPoGzM6pyAiqqBPznkFjdsLuZebzQQk0L7TLZNfaYklmYAThZu4gIrlbY7LZdw99\nZhND0p2197UsNsFyxvbiksioPpyr8cyyF0F5vbw2l7eTD/MgULlcfzenAEskSjzc\nKPrUp66TAkW/OIe5dErHvbL6Ksfb91/fPcIikbrIWYyA9Ei8AWYrA4fDT7AiRxPp\nAmELw97FAgMBAAECgf8qpYWYHGJjJAFaiSYYnUlXvxZy0NWs0os7sMxdmnjdBePD\nukQ4GMRGp5ykDAGynp494HYkFrDBwixwY7i1pikSglTeDTwHi04R6qDx8xbHujpr\nhMpirrtHNy9mWXgHu9U/ynKplNJgCJQkoJ5ynJrJ8pGZhQIuiy787HuNfHr7o7KN\nV9hWgoaGwoT0gHu46IhMqF6A87Ey9sK06JZPfLiTEimCzB7LrUTxaENuZJbyQcie\n2Ri6iTIoBNS5wtUZAqfkT56JyRmaZQBVOWqj3TTVW9jaqoKnwHR1hCS3OaCwgtP2\nIkbyAnkQN89Ijau0H9Sc31dow0YNGmAgPqjeDFkCgYEA+3wzIw3WThBaY7/LXn8m\nU54TO1ZINsbLEC/24xAJHtPDAUM7EQTrSj3YXBrSCo196obvmKKGFynUfCJOIxbK\nyW6ri7dWQrDO25qalOQrV1FiW1vT+0GUEmSEohte1vYrc24Vrh56oyGuZIK0kkZm\nsM6+QekGbRRwIh5XoKgdRE8CgYEA0taoUz+JhZRf/7rPL+nmIwwq3cqrFB3O7iJt\nL2Ksx4PlOwtXNCJ0dxd7cDfBv3krB2TV5Sz2px7mHP1wfdTyTvvmLfxEkRmURF7A\nrLsEaZmXV6gFWcP6miRPVBDIdlVmjM1JqAuWYM3JpzRLiryRSECn8a0AJG5LZ/RE\n+zGfYqsCgYBfvZriP4RU19jxnLTZ1uJKdyWvM1vurqPkF76QFyzBtbDJrESyaAMD\nkqPp/LP2HIPRY2mX3FfcPaqNT6obpbOyGBXq7PNEFHfMFwG+qVbuuScOzNjZENBE\naEwuQulKQRGtsj1CuovJyyrPTQtdnLu/mBXKleJCaMN/2blWimoJ9QKBgDTeoyMN\nAb0/cbs86wuGybDsMiuf0Lqgpu1MMLj7M3xsdKUTuPBX24CpoMiJEsqi5cla3dA0\nMD3EH8wROY40QfbQb+4EHmWMVoO2hvZJh1e7rhnLBlx2KndQt5vLAZm63JZePCQp\nk7H+qJyHHpJRqtTFcdfGnAyGo94TgODElsU1AoGAZUbdp4FetVqJPMkv6llVuLUW\nd8EcxxchohO8VVDHvEcocRujF46YOzxakNwcR3dG3aNGcjYW3thlDUBEHC6agw3C\nk5EzAcizzmrJDAwYBcQmgLhn0t8HZDNfISfTrUae0BNjUeznfBBBsEq6ThVSIx7X\nzdnrB0STsN1clY9vJbY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "voiceassistant@driven-fragment-258113.iam.gserviceaccount.com",
+  "client_id": "113388695219105802614",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/voiceassistant%40driven-fragment-258113.iam.gserviceaccount.com"
+}

@@ -7,6 +7,7 @@ import AppIntroSlider from 'react-native-app-intro-slider';
 import {Fonts} from './src/utils/fonts';
 import LottieView from 'lottie-react-native';
 import AwesomeButtonRick from 'react-native-really-awesome-button/src/themes/rick';
+import Assistant from './src/scenes/asistant';
 
 
 const ScreenSize = Dimensions.get('window');
@@ -76,6 +77,11 @@ const slides = [
         <NavigationContainer>
            <Stack.Navigator initialRouteName="Home">
           <Stack.Screen name="Home" component={HomeScreen} 
+           options={{
+            headerTitle: '',
+            headerTransparent: true
+          }}/>
+          <Stack.Screen name="Assistant" component={Assistant}
            options={{
             headerTitle: '',
             headerTransparent: true
